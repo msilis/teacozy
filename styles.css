@@ -1,0 +1,164 @@
+
+*{
+    opacity: 0.95;
+}
+body{
+    font-family: Helvetica;
+    color: seashell;
+    background-color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+}
+
+header{
+    border-bottom: 1px solid seashell;
+}
+
+/* Navigation and logo */
+
+.navbar{
+    display: inline-block;
+    
+    height: 69px;
+    position: fixed;
+    
+}
+
+.nav-list a:hover{
+    color:darkorange;
+    transition: .5s;
+}
+
+.logo{
+    height: 50px;
+}
+
+
+.nav-list{
+    list-style-type: none;
+    float: right;
+    
+}
+
+li{
+    font-size: 20px;
+    display: inline;
+}
+a {
+    color: seashell;
+    padding: 8px;
+}
+
+.hero-image{
+    display: block;
+    margin-top: 69px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 700px;
+}
+
+.hero-banner{
+    display: block;
+    background-color: black;
+    width: 1200px;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.back{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.back a:hover{
+    color: darkorange;
+    transition: .5s;
+}
+
+/* Teas */
+
+.totm{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    width: 1000px;
+}
+
+.tea-title{
+    text-align: center;
+}
+
+.teapic{
+    margin: 10px;
+    height: 200px;
+    width: 300px;
+}
+
+.tea-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* Locations */
+
+.locations{
+    display: flex;
+    flex-flow: column;
+    padding-top: 20px;
+    background-image: url('Media/img-locations-background.jpg');
+    background-size: cover;
+    width: 1200px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.loc{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.loc-title{
+    text-align: center;
+    font-weight: bold;
+}
+
+.location-card{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    padding: 10px;
+    diplay: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.loc-name{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.address{
+    font-weight: lighter;
+}
+
+.contact {
+    height: 200px;
+    margin-top: 40px;
+    text-align: center;
+}
+
